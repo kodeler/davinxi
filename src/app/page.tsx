@@ -72,7 +72,7 @@ export default function Home() {
         <div className="flex-grow flex justify-center items-center relative">
           <div className="absolute top-0 left-1/2 transform -translate-x-1/2 flex items-center">
             <div className="w-24 h-24 md:w-32 md:h-32 mr-2 md:mr-4">
-              <Image src="/v.png" alt="Logo" width={96} height={96} className="md:w-auto md:h-auto" />
+              <Image src="/v.png" alt="Logo" width={100} height={100} className="md:w-auto md:h-auto" />
             </div>
             <h1 className="text-xl md:text-3xl font-bold">Davinxi</h1>
           </div>
@@ -99,7 +99,7 @@ export default function Home() {
           {contents.filter((content) => content.side === 'right').map((content) => (
             <button
               key={content.id}
-              className={`text-gray-500 hover:text-gray-700 focus:outline-none transition-colors duration-300 py-2 text-sm md:text-base ${
+              className={`text-white hover:text-pink-700 focus:outline-none transition-colors duration-300 py-2 text-sm md:text-base ${
                 activeContent === content.id ? 'text-blue-500' : ''
               }`}
               onClick={() => setActiveContent(content.id)}
