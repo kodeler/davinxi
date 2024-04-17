@@ -65,7 +65,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen bg-black" >
       {!isMobile && (
         <Spline scene="https://draft.spline.design/9lMrBnhabDli1fkB/scene.splinecode" />
       )}
