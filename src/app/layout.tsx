@@ -16,6 +16,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Davinxi",
   description: "Davinxi",
+  icons: {
+    icon: "/assets/favicon.png",
+  },
+  
 };
 
 export default function RootLayout({
