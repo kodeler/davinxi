@@ -66,9 +66,9 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen bg-black" >
-      {!isMobile && (
+      
         <Spline scene="https://draft.spline.design/9lMrBnhabDli1fkB/scene.splinecode" />
-      )}
+      
       <div className="absolute inset-0 flex py-2 md:py-4">
         <div className="flex flex-col justify-center px-2 md:px-4 w-1/4 md:w-1/5">
           {contents
